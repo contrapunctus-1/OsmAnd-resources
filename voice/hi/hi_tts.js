@@ -21,11 +21,10 @@ function populateDictionary(tts) {
 	dictionary["distance"] = tts ? ", अंतर " : "distance.ogg";
 
 	// LEFT/RIGHT
-	//dictionary["prepare"] = tts ? " मुडने के लिये तयार रहे" : "prepare.ogg";
+	//dictionary["prepare"] = tts ? " मुड़ने के लिये तयार रहे" : "prepare.ogg";
 	dictionary["after"] = tts ? " के बाद " : "after.ogg";
 	dictionary["in"] = tts ? " में" : "in.ogg";
 
-	dictionary["mudiye"] = tts ? "मुडिये" : "mudiye.ogg";
 	dictionary["left"] = tts ? "बाये " : "left.ogg";
 	dictionary["left_sh"] = tts ? "तेजी से बाये " : "left_sh.ogg";
 	dictionary["left_sl"] = tts ? "हलके से बाये " : "left_sl.ogg";
@@ -36,16 +35,17 @@ function populateDictionary(tts) {
 	dictionary["right_keep"] = tts ? "दायने रहे " : "right_keep.ogg";
 	dictionary["left_bear"] = tts ? "बाये रहे  " : "left_bear.ogg";     // in English the same as left_keep, may be different in other languages
 	dictionary["right_bear"] = tts ? "दायने रहे " : "right_bear.ogg";    // in English the same as right_keep, may be different in other languages
+	dictionary["mudiye"] = tts ? "मुड़िये" : "mudiye.ogg";
 
 	// U-TURNS
-	dictionary["prepare_make_uturn"] = tts ? "के बाद वापस मुडने के लिये तयार रहे " : "prepare_make_uturn.ogg";
-	dictionary["make_uturn"] = tts ? "के बाद वापस मुडिये " : "make_uturn.ogg";
-	dictionary["make_uturn2"] = tts ? "वापस मुडिये " : "make_uturn2.ogg";
-	dictionary["make_uturn_wp"] = tts ? "जब संभव हो तब वापस मुडिये " : "make_uturn_wp.ogg";
+	dictionary["prepare_make_uturn"] = tts ? "के बाद वापस मुड़ने के लिये तयार रहे " : "prepare_make_uturn.ogg";
+	dictionary["make_uturn"] = tts ? "के बाद वापस मुड़िये " : "make_uturn.ogg";
+	dictionary["make_uturn2"] = tts ? "वापस मुड़िये " : "make_uturn2.ogg";
+	dictionary["make_uturn_wp"] = tts ? "जब संभव हो तब वापस मुड़िये " : "make_uturn_wp.ogg";
 
 	// ROUNDABOUTS
-	dictionary["prepare_roundabout"] = tts ? "के बाद वापस मुडने के लिये तयार रहे " : "prepare_roundabout.ogg";
-	dictionary["roundabout"] = tts ? "के बाद वापस मुडिये और बाहर जाने का " : "roundabout.ogg";
+	dictionary["prepare_roundabout"] = tts ? "के बाद वापस मुड़ने के लिये तयार रहे " : "prepare_roundabout.ogg";
+	dictionary["roundabout"] = tts ? "के बाद वापस मुड़िये और बाहर जाने का " : "roundabout.ogg";
 	dictionary["then"] = tts ? "और फिर " : "then.ogg";
 	dictionary["and"] = tts ? " और " : "and.ogg";
 	dictionary["take"] = tts ? "बाहर जाने का " : "take.ogg";
