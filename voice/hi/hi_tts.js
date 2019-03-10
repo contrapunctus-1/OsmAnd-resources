@@ -90,11 +90,11 @@ function populateDictionary(tts) {
 	// ATTENTION
 	//dictionary["exceed_limit"] = tts ? "आप गति सीमा से अधिक कर रहे हैं " : "exceed_limit.ogg";
 	dictionary["exceed_limit"] = tts ? "गति सीमा " : "exceed_limit.ogg";
-	dictionary["attention"] = tts ? "ध्यान " : "attention.ogg";
+	dictionary["attention"] = tts ? "ध्यान दें " : "attention.ogg";
 	dictionary["speed_camera"] = tts ? "गति कैमरा" : "speed_camera.ogg";
 	dictionary["border_control"] = tts ? "सीमा नियंत्रण" : "border_control.ogg";
 	dictionary["railroad_crossing"] = tts ? "रेलमार्ग पारगमन" : "railroad_crossing.ogg";
-	dictionary["traffic_calming"] = tts ? "ट्रैफिक नियंत्रण करना" : "traffic_calming.ogg";
+	dictionary["traffic_calming"] = tts ? "ट्रैफिक नियंत्रण " : "traffic_calming.ogg";
 	dictionary["toll_booth"] = tts ? "टोल बूथ" : "toll_booth.ogg";
 	dictionary["stop"] = tts ? "रुकने का संकेत" : "stop.ogg";
 	dictionary["pedestrian_crosswalk"] = tts ? "पैदल चलने वालों का मार्ग" : "pedestrian_crosswalk.ogg";
@@ -103,25 +103,25 @@ function populateDictionary(tts) {
 	// OTHER PROMPTS
 	dictionary["location_lost"] = tts ? "जी पी एस सिग्नल नही" : "location_lost.ogg";
 	dictionary["location_recovered"] = tts ? "जीपीएस संकेत बहाल" : "location_recovered.ogg";
-	dictionary["off_route"] = tts ? "आप मार्ग से भटक गए हैं " : "off_route.ogg";
-	dictionary["back_on_route"] = tts ? "आप मार्ग पर वापस आ रहे हैं" : "back_on_route.ogg";
+	dictionary["off_route"] = tts ? "आप रास्ते से भटक गए हैं " : "off_route.ogg";
+	dictionary["back_on_route"] = tts ? "आप रास्ते पर वापस आ गए हैं" : "back_on_route.ogg";
 
 	// STREET NAME PREPOSITIONS
 	dictionary["onto"] = tts ? "पर " : "onto.ogg";
 	dictionary["on"] = tts ? "पर " : "on.ogg";
 	dictionary["to"] = tts ? "पर " : "to.ogg";
-	dictionary["toward"] = tts ? "toward " : "toward.ogg";
+	dictionary["toward"] = tts ? "की ओर " : "toward.ogg";
 
 	// DISTANCE UNIT SUPPORT
 	dictionary["meters"] = tts ? "मीटर " : "meters.ogg";
-	dictionary["around_1_kilometer"] = tts ? "साधारण 1 किलोमीटर" : "around_1_kilometer.ogg";
-	dictionary["around"] = tts ? "साधारण " : "around.ogg";
+	dictionary["around_1_kilometer"] = tts ? "करीब 1 किलोमीटर" : "around_1_kilometer.ogg";
+	dictionary["around"] = tts ? "करीब " : "around.ogg";
 	dictionary["kilometers"] = tts ? "किलोमीटर" : "kilometers.ogg";
 
-	dictionary["feet"] = tts ? "पैर" : "feet.ogg";
+	dictionary["feet"] = tts ? "फ़ुट" : "feet.ogg";
 	dictionary["1_tenth_of_a_mile"] = tts ? "एक मील का दसवां" : "1_tenth_of_a_mile.ogg";
 	dictionary["tenths_of_a_mile"] = tts ? "एक मील का दसवां" : "tenths_of_a_mile.ogg";
-	dictionary["around_1_mile"] = tts ? "के बारे में 1 मील" : "around_1_mile.ogg";
+	dictionary["around_1_mile"] = tts ? "करीब 1 मील" : "around_1_mile.ogg";
 	dictionary["miles"] = tts ? "मील" : "miles.ogg";
 
 	dictionary["yards"] = tts ? "गज़ की दूरी पर" : "yards.ogg";
